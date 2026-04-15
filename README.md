@@ -131,5 +131,24 @@ The dashboard supports cross-filtering and drill-down for deeper exploration.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/customer-shopping-behaviour.git
-   cd customer-shopping-behaviour
+   git clone https://github.com/Aakriti-23/customer_behaviour_analysis.git
+   cd customer_behaviour_analysis
+
+2. **Install required packages
+   ```bash
+   pip install pandas numpy sqlalchemy psycopg2-binary
+
+3. Run the Jupyter Notebook
+   Open `customer_shopping_behaviour_analysis.ipynb`
+   Run the cells step-by-step to see data loading, cleaning, and EDA.
+
+4. Database Setup (Optional)
+   Update the database connection string in the notebook with your credentials.
+   Run the SQLAlchemy code to load data into the `customer` table.
+
+5. Execute SQL Queries
+   Open `customer_behaviour_queries.sql` in your database client (PostgreSQL, MySQL, or SQL Server).
+
+6. Open Power BI Dashboard
+   Open `customer_behaviour_dashboard.pbix`
+   Refresh the data source if necessary.
